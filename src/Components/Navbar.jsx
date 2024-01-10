@@ -19,7 +19,8 @@ const Navbar = () => {
     
     <div  className='flex justify-between items-center w-full '>
         <ul className='flex justify-between items-center w-full '>
-    <Link href='/'>
+            <li>
+    <Link href='/'> </li>
         <li className='ml-10 text-sm uppercase hover:border-b'>Home</li>
     </Link>
     <Link href='/Projects'>
