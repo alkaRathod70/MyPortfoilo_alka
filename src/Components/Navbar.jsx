@@ -14,11 +14,11 @@ const Navbar = () => {
     <header class="text-gray-600 body-font">
   <div class="container mx-auto flex flex-wrap p-5 flex-col md:flex-row items-center">
     <a class="flex title-font font-medium items-center text-gray-100 mb-4 md:mb-0">
-    <pre className='flex text-xl'>
+    <pre className='text-xl'>
     <FaLaptopCode size={30}/> Alka Rathod </pre>
       
     </a>
-    <ul className='flex text-white'>
+    <ul className='text-white'>
      <Link href='/'> 
       <li className='ml-10 text-sm uppercase hover:border-b'> Home</li>
     </Link>
