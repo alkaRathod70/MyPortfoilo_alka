@@ -16,7 +16,7 @@ const Navbar = () => {
     <div className='flex justify-around items-center w-full h-full px-2 border-b 2xl:px-16' >
     <pre className='flex text-xl'>
     <FaLaptopCode size={30}/> Alka Rathod </pre>
-    
+    </div>
     <div  className='flex justify-between items-center w-full '>
         <ul >
             <li>
@@ -37,7 +37,7 @@ const Navbar = () => {
     </Link>
         </ul>
     </div>
-      </div>
+      
     
     </section>
   )
