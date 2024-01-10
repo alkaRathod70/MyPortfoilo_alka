@@ -15,10 +15,10 @@ const Navbar = () => {
         
     <div className='flex justify-between items-center w-full h-full px-2 border-b 2xl:px-16' >
     <pre className='flex text-xl'>
-    <FaLaptopCode size={30}/> IT Spark Labs  </pre>
+    <FaLaptopCode size={30}/> Alka Rathod </pre>
     
     <div>
-        <ul className='flex'>
+        <ul className='flex flex-around'>
     <Link href='/'>
         <li className='ml-10 text-sm uppercase hover:border-b'>Home</li>
     </Link>
