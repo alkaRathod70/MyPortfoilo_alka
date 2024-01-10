@@ -18,7 +18,7 @@ const Navbar = () => {
     <FaLaptopCode size={30}/> Alka Rathod </pre>
       
     </a>
-       <nav class="md:mr-auto md:ml-4 md:py-1 md:pl-4 md:border-l md:border-gray-400	flex flex-wrap items-center text-base justify-center"> 
+       <nav class="md:mr-auto md:ml-4 md:py-1 md:pl-4 md:border-l md:border-gray-400 flex md:flex-wrap items-center text-base justify-center"> 
     <ul className='text-white'>
      <Link href='/'> 
       <li className='ml-10 text-sm uppercase hover:border-b'> Home</li>
