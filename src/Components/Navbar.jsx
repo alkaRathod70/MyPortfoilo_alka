@@ -19,10 +19,9 @@ const Navbar = () => {
       
     </a>
     <ul className='flex text-white'>
-    <li className='ml-10 text-sm uppercase hover:border-b'>
-    <Link href='/'> 
+     <Link href='/'> 
       <li className='ml-10 text-sm uppercase hover:border-b'> Home</li>
-    </Link></li>
+    </Link>
      <Link href='/Projects'>
        <li className='ml-10 text-sm uppercase hover:border-b'> Projects</li>
     </Link>
@@ -39,6 +38,7 @@ const Navbar = () => {
     
   </div>
 </header>
+  
   )
 }
 
