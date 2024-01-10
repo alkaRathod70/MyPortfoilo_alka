@@ -20,10 +20,10 @@ const Navbar = () => {
       <li className='ml-10 text-sm uppercase hover:border-b'> Home</li>
     </Link>
      <Link href='/Projects'>
-       <li className='ml-10 text-sm uppercase hover:border-b'> Projects</li>
+       <li className='ml-10 px-4 text-sm uppercase hover:border-b'> Projects</li>
     </Link>
     <Link href='/Skills'>
-       <li className='ml-10 text-sm uppercase hover:border-b'> Skills</li>
+       <li className='ml-10 px-4 text-sm uppercase hover:border-b'> Skills</li>
      </Link>
     <Link href='/About'>
         <li className='ml-10 text-sm uppercase hover:border-b'> About</li>
