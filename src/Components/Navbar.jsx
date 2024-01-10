@@ -19,7 +19,7 @@ const Navbar = () => {
       
     </a>
        <nav class="md:mr-auto md:ml-4 md:py-1 md:pl-4 md:border-l md:border-gray-400 flex md:flex-wrap items-center text-base justify-center"> 
-    <ul className='text-white'>
+    <ul className='text-white flex'>
      <Link href='/'> 
       <li className='ml-10 text-sm uppercase hover:border-b'> Home</li>
     </Link>
