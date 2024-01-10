@@ -18,7 +18,7 @@ const Navbar = () => {
     <FaLaptopCode size={30}/> Alka Rathod </pre>
     
     <div>
-        <ul className='flex justify-between'>
+        <ul className='flex justify-between items-center w-full '>
     <Link href='/'>
         <li className='ml-10 text-sm uppercase hover:border-b'>Home</li>
     </Link>
