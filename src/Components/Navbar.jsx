@@ -11,9 +11,9 @@ const Navbar = () => {
         setNav(!nav);
     }
   return (
-    <section className='fixed w-full h-20 shadow-xl z-[100]  bg-black/100 flex justify-between items-center w-full'>
+    <section className='fixed w-full h-20 shadow-xl z-[100]  bg-black/100 '>
         
-    <div className='flex justify-between items-center w-full h-full px-2 border-b 2xl:px-16' >
+    <div className='flex justify-around items-center w-full h-full px-2 border-b 2xl:px-16' >
     <pre className='flex text-xl'>
     <FaLaptopCode size={30}/> Alka Rathod </pre>
     
