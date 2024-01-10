@@ -18,7 +18,7 @@ const Navbar = () => {
     <FaLaptopCode size={30}/> IT Spark Labs  </pre>
     
     <div>
-        <ul className='hidden md:flex'>
+        <ul className='flex'>
     <Link href='/'>
         <li className='ml-10 text-sm uppercase hover:border-b'>Home</li>
     </Link>
