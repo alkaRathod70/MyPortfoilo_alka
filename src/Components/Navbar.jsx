@@ -13,11 +13,7 @@ const Navbar = () => {
   return (
     <header class="text-gray-600 body-font">
   <div class="container mx-auto flex  p-5 flex-col md:flex-row items-center">
-    <a class="flex title-font font-medium items-center text-gray-100 mb-4 md:mb-0">
-    <pre className='text-xl'>
-    <FaLaptopCode size={30}/> Alka Rathod </pre>
-      
-    </a>
+   
        <nav class="md:mr-auto md:ml-4 md:py-1 md:pl-4 md:border-l md:border-gray-400 flex md:flex-wrap items-center text-base justify-center"> 
     <ul className='text-white'>
      <Link href='/'> 
