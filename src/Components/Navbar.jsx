@@ -11,8 +11,8 @@ const Navbar = () => {
         setNav(!nav);
     }
   return (
-    <header class="text-gray-600 body-font flex">
-  <div class="container mx-auto flex  p-5 flex md:flex-row items-center ">
+    <header class="text-gray-600 body-font ">
+  <div class="container mx-auto flex flex-row justify-around p-5 flex md:flex-row items-center ">
    
        <nav class="md:mr-auto md:ml-4 md:py-1 md:pl-4 md:border-l md:border-gray-400 flex md:flex-wrap items-center text-base justify-center"> 
     <ul className='flex text-white flex-row justify-between'>
