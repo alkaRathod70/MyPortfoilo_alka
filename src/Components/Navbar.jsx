@@ -20,7 +20,7 @@ const Navbar = () => {
       <li className='ml-10 text-sm uppercase hover:border-b'> Home</li>
     </Link>
      <Link href='/Projects'>
-       <li className='ml-10 px-4 text-sm uppercase hover:border-b'> Projects</li>
+       <li className='ml-10 px-4 text-sm uppercase hover:border-b' style={{padding:"4px"}}> Projects</li>
     </Link>
     <Link href='/Skills'>
        <li className='ml-10 px-4 text-sm uppercase hover:border-b'> Skills</li>
