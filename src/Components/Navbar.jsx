@@ -15,7 +15,7 @@ const Navbar = () => {
   <div class="container mx-auto flex  p-5 flex md:flex-row items-center">
    
        <nav class="md:mr-auto md:ml-4 md:py-1 md:pl-4 md:border-l md:border-gray-400 flex md:flex-wrap items-center text-base justify-center"> 
-    <ul className='text-white'>
+    <ul className='flex text-white'>
      <Link href='/'> 
       <li className='ml-10 text-sm uppercase hover:border-b'> Home</li>
     </Link>
