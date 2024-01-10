@@ -11,14 +11,14 @@ const Navbar = () => {
         setNav(!nav);
     }
   return (
-    <section className='fixed w-full h-20 shadow-xl z-[100]  bg-black/100'>
+    <section className='fixed w-full h-20 shadow-xl z-[100]  bg-black/100 flex justify-between items-center w-full'>
         
     <div className='flex justify-between items-center w-full h-full px-2 border-b 2xl:px-16' >
     <pre className='flex text-xl'>
     <FaLaptopCode size={30}/> Alka Rathod </pre>
     
     <div  className='flex justify-between items-center w-full '>
-        <ul className='flex justify-between items-center w-full '>
+        <ul >
             <li>
     <Link href='/'> </li>
         <li className='ml-10 text-sm uppercase hover:border-b'>Home</li>
