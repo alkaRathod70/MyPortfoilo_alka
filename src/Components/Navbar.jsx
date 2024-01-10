@@ -11,35 +11,34 @@ const Navbar = () => {
         setNav(!nav);
     }
   return (
-    <section className='fixed w-full h-20 shadow-xl z-[100]  bg-black/100 '>
-        
-    <div className='flex justify-around items-center w-full h-full px-2 border-b 2xl:px-16' >
+    <header class="text-gray-600 body-font">
+  <div class="container mx-auto flex flex-wrap p-5 flex-col md:flex-row items-center">
+    <a class="flex title-font font-medium items-center text-gray-100 mb-4 md:mb-0">
     <pre className='flex text-xl'>
     <FaLaptopCode size={30}/> Alka Rathod </pre>
-    </div>
-    <div  className='flex justify-between items-center w-full '>
-        <ul >
-            <li>
-    <Link href='/'> </li>
-        <li className='ml-10 text-sm uppercase hover:border-b'>Home</li>
-    </Link>
-    <Link href='/Projects'>
-        <li className='ml-10 text-sm uppercase hover:border-b'>Projects</li>
+      
+    </a>
+    <ul className='flex text-white'>
+    <li className='ml-10 text-sm uppercase hover:border-b'>
+    <Link href='/'> 
+      <li className='ml-10 text-sm uppercase hover:border-b'> Home</li>
+    </Link></li>
+     <Link href='/Projects'>
+       <li className='ml-10 text-sm uppercase hover:border-b'> Projects</li>
     </Link>
     <Link href='/Skills'>
-        <li className='ml-10 text-sm uppercase hover:border-b'>Skills</li>
-    </Link>
+       <li className='ml-10 text-sm uppercase hover:border-b'> Skills</li>
+     </Link>
     <Link href='/About'>
-        <li className='ml-10 text-sm uppercase hover:border-b'>About</li>
-    </Link>
+        <li className='ml-10 text-sm uppercase hover:border-b'> About</li>
+ </Link>
     <Link href='/Contact'>
-        <li className='ml-10 text-sm uppercase hover:border-b'>Contact</li>
-    </Link>
-        </ul>
-    </div>
-      
+         <li className='ml-10 text-sm uppercase hover:border-b'>Contact</li>
+     </Link>
+     </ul>
     
-    </section>
+  </div>
+</header>
   )
 }
 
