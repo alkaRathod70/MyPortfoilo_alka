@@ -15,7 +15,7 @@ const Navbar = () => {
         
     <div className='flex justify-between items-center w-full h-full px-2 border-b 2xl:px-16' >
     <pre className='flex text-xl'>
-    <FaLaptopCode size={30}/> Alka Rathod  </pre>
+    <FaLaptopCode size={30}/> IT Spark Labs  </pre>
     
     <div>
         <ul className='hidden md:flex'>
@@ -39,29 +39,7 @@ const Navbar = () => {
     <div className='md:hidden' onClick={handleNav}>
         <AiOutlineMenu size={25}/>
         
-    </div>
-<div className={nav ? 'md:hidden fixed left-0 top-0 w-full h-screen bg-black/70' : ""}>
-<div className={nav ? 'fixed left-0 top-0 w-[70%] drop-shadow-xl sm:w-[60%] md:w-[45%] h-screen bg-black/100 p-10 ease-in duration-500 ': 'fixed left-[-120%] top-0  p-10 ease-in duration-500 '}>
-
-        <div className='pt-40'>
-    <p className='uppercase tracking-widest text-'> Let's Connect </p>
-    <div className='flex items-center justify-between my-4 w-full sm:w-[80%]'>
-    <div className='rounded-full shadow-lg shadow-gray-400 p4 cursor-pointer hover:scale-75 ease-in duration-300'>
-        <FaLinkedin size={25} />
-    </div>
-    <div className='rounded-full shadow-lg shadow-gray-400 p4 cursor-pointer hover:scale-75 ease-in duration-300'>
-        <FaGithub size={25}/>
-    </div>
-    <div className='rounded-full shadow-lg shadow-gray-400 p4 cursor-pointer hover:scale-75 ease-in duration-300'>
-        <AiOutlineMail size={25}/>
-    </div>
-    <div className='rounded-full shadow-lg shadow-gray-400 p4 cursor-pointer hover:scale-75 ease-in duration-300'>
-        <BsPersonFill size={25}/>
-    </div>
-    </div>
-    </div>
-</div>
-</div>
+   
 
     </div>
     </div>
