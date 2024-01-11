@@ -26,7 +26,7 @@ const Skills = () => {
         </div>
         {/* ---------------------------------- Back end*/}
 
-        <h3>Back End Developer</h3>
+        <h3> Learing Back End Developer</h3>
       <div class="flex flex-wrap m-2 text-center items-center justify-center">
         
       {Bskills.map(skills=>
