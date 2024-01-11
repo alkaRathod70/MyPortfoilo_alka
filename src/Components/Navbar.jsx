@@ -15,7 +15,7 @@ const Navbar = () => {
   <div className="container mx-auto flex flex-row justify-center p-5 flex md:flex-row items-center ">
   
        <nav className="flex justify-center bg-gray-800 md:mr-auto md:ml-4 md:py-1 md:pl-4 md:border-l md:border-gray-400 flex md:flex-wrap items-center text-base justify-center"> 
-           <ul className='flex text-white flex-row gap-20 justify-center ml-5'>
+           <ul className='flex text-white flex-row gap-20 justify-center ml-5 p-10'>
                
      <Link href='/'> 
       <li className='ml-12 text-sm uppercase hover:border-b '> Home</li>
