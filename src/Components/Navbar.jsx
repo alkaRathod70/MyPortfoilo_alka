@@ -17,19 +17,19 @@ const Navbar = () => {
        <nav class="flex justify-between md:mr-auto md:ml-4 md:py-1 md:pl-4 md:border-l md:border-gray-400 flex md:flex-wrap items-center text-base justify-center"> 
     <ul className='flex text-white flex-row gap-2'>
      <Link href='/'> 
-      <li className='ms-5 text-sm uppercase hover:border-b '> Home</li>
+      <li className='ml-12 text-sm uppercase hover:border-b '> Home</li>
     </Link>
      <Link href='/Projects'>
-       <li className='ms-5 px-4 text-sm uppercase hover:border-b' style={{padding:"4px"}}> Projects</li>
+       <li className='ml-12 px-4 text-sm uppercase hover:border-b' style={{padding:"4px"}}> Projects</li>
     </Link>
     <Link href='/Skills'>
-       <li className='ms-5 px-4 text-sm uppercase hover:border-b'> Skills</li>
+       <li className='ml-12 px-4 text-sm uppercase hover:border-b'> Skills</li>
      </Link>
     <Link href='/About'>
-        <li className='ms-5 text-sm uppercase hover:border-b'> About</li>
+        <li className='ml-12 text-sm uppercase hover:border-b'> About</li>
  </Link>
     <Link href='/Contact'>
-         <li className='ms-5 text-sm uppercase hover:border-b'>Contact</li>
+         <li className='ml-12 text-sm uppercase hover:border-b'>Contact</li>
      </Link>
      </ul>
     </nav>
