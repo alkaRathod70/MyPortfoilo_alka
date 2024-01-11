@@ -18,19 +18,19 @@ const Navbar = () => {
            <ul className='flex text-white flex-row gap-20 justify-center ml-5 p-10'>
                
      <Link href='/'> 
-      <li className='ml-12 text-sm uppercase hover:border-b 'style={{padding:"10px"}}> Home</li>
+      <li className='ml-10 text-sm uppercase hover:border-b 'style={{padding:"10px"}}> Home</li>
     </Link>
      <Link href='/Projects'>
-       <li className='ml-12 px-4 text-sm uppercase hover:border-b' style={{padding:"10px"}}> Projects</li>
+       <li className='ml-10 px-4 text-sm uppercase hover:border-b' style={{padding:"10px"}}> Projects</li>
     </Link>
     <Link href='/Skills'>
-       <li className='ml-12 px-4 text-sm uppercase hover:border-b'style={{padding:"10px"}}> Skills</li>
+       <li className='ml-10 px-4 text-sm uppercase hover:border-b'style={{padding:"10px"}}> Skills</li>
      </Link>
     <Link href='/About'>
-        <li className='ml-12 text-sm uppercase hover:border-b'style={{padding:"10px"}}> About</li>
+        <li className='ml-10 text-sm uppercase hover:border-b'style={{padding:"10px"}}> About</li>
  </Link>
     <Link href='/Contact'>
-         <li className='ml-12 text-sm uppercase hover:border-b'style={{padding:"10px"}}>Contact</li>
+         <li className='ml-10 text-sm uppercase hover:border-b'style={{padding:"10px"}}>Contact</li>
      </Link>
      </ul>
     </nav>
