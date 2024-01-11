@@ -13,7 +13,7 @@ const Navbar = () => {
   return (
     <header class="text-gray-600 body-font ">
   <div class="container mx-auto flex flex-row justify-center p-5 flex md:flex-row items-center ">
-         <a class="flex title-font font-medium items-center text-gray-100 mb-4 md:mb-1">
+         <a class="flex title-font font-medium items-center text-gray-100 mb-4 md:mb-0 ml-0">
     <pre className='flex text-xl'>
     <FaLaptopCode size={30}/> Alka Rathod </pre>
       
