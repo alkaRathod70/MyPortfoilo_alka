@@ -14,7 +14,7 @@ const Navbar = () => {
     <header class="text-gray-600 body-font ">
   <div class="container mx-auto flex flex-row justify-around p-5 flex md:flex-row items-center ">
    
-       <nav class="flex justify-between md:mr-auto md:ml-4 md:py-1 md:pl-4 md:border-l md:border-gray-400 flex md:flex-wrap items-center text-base justify-center"> 
+       <nav class="flex justify-center md:mr-auto md:ml-4 md:py-1 md:pl-4 md:border-l md:border-gray-400 flex md:flex-wrap items-center text-base justify-center"> 
     <ul className='flex text-white flex-row gap-20 justify-center'>
      <Link href='/'> 
       <li className='ml-12 text-sm uppercase hover:border-b 'style={{padding:"10px"}}> Home</li>
