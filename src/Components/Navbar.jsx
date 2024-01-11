@@ -17,7 +17,7 @@ const Navbar = () => {
        <nav class="flex justify-between md:mr-auto md:ml-4 md:py-1 md:pl-4 md:border-l md:border-gray-400 flex md:flex-wrap items-center text-base justify-center"> 
     <ul className='flex text-white flex-row gap-2'>
      <Link href='/'> 
-      <li className='ml-12 text-sm uppercase hover:border-b'> Home</li>
+      <li className='ms-12 text-sm uppercase hover:border-b '> Home</li>
     </Link>
      <Link href='/Projects'>
        <li className='ml-10 px-4 text-sm uppercase hover:border-b' style={{padding:"4px"}}> Projects</li>
