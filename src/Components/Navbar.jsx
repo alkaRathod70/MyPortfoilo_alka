@@ -13,11 +13,7 @@ const Navbar = () => {
   return (
     <header className="text-gray-600 body-font ">
   <div className="container mx-auto flex flex-row justify-center p-5 flex md:flex-row items-center ">
-         <a className="flex title-font font-medium items-center text-gray-100 mb-4 md:mb-0 ml-0">
-    <pre className='flex text-xl'>
-    <FaLaptopCode size={30}/> Alka Rathod </pre>
-      
-    </a>
+  
        <nav className="flex justify-center bg-gray-800 md:mr-auto md:ml-4 md:py-1 md:pl-4 md:border-l md:border-gray-400 flex md:flex-wrap items-center text-base justify-center"> 
            <ul className='flex text-white flex-row gap-20 justify-center ml-5'>
                
