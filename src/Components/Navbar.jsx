@@ -18,7 +18,7 @@ const Navbar = () => {
            <ul className='flex text-white flex-row gap-20 justify-center ml-5 p-10'>
                
      <Link href='/'> 
-      <li className='ml-12 text-sm uppercase hover:border-b '> Home</li>
+      <li className='ml-12 text-sm uppercase hover:border-b 'style={{padding:"10px"}}> Home</li>
     </Link>
      <Link href='/Projects'>
        <li className='ml-12 px-4 text-sm uppercase hover:border-b' style={{padding:"10px"}}> Projects</li>
