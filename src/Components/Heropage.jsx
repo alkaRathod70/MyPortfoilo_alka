@@ -25,7 +25,7 @@ const Heropage = () => {
         
         </p>
     
-    <div className='flex items-center justify-between m-auto py-4 max-w-[330px]'>
+    <div className='flex items-center justify-between m-auto py-4 max-w-[330px] ml-20'>
     <div className='rounded-full shadow-lg shadow-gray-400 p4 cursor-pointer hover:scale-75 ease-in duration-300'>
         <FaLinkedin size={35} />
     </div>
