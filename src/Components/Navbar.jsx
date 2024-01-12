@@ -9,13 +9,13 @@ const Navbar = () => {
     const [nav,setNav]=useState(false);
     const handleNav=()=>{
         setNav(!nav);
-    }
+  }
   return (
     <header className="text-gray-600 body-font  ">
-  <div className="container mx-auto flex flex-row justify-center p-5 flex md:flex-row items-center bg-gray-800">
+  <div className="container mx-auto flex flex-row justify-center py-2 flex md:flex-row items-center bg-gray-800">
   
 <nav className="flex justify-center  md:mr-auto md:ml-4 md:py-1 md:pl-4 md:border-l md:border-gray-400 flex md:flex-wrap items-center text-base justify-center"> 
-           <ul className='flex text-white flex-row gap-20 justify-center ml-5 p-10 mb-10'>
+           <ul className='flex text-white flex-row gap-20 justify-center ml-5  mb-10'>
                
      <Link href='/'> 
       <li className='ml-10 text-sm uppercase hover:border-b 'style={{padding:"10px"}}> Home</li>
@@ -39,5 +39,4 @@ const Navbar = () => {
   
   )
 }
-
 export default Navbar
