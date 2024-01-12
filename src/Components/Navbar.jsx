@@ -11,10 +11,10 @@ const Navbar = () => {
         setNav(!nav);
     }
   return (
-    <header className="text-gray-600 body-font ">
-  <div className="container mx-auto flex flex-row justify-center p-5 flex md:flex-row items-center ">
+    <header className="text-gray-600 body-font bg-gray-800">
+  <div className="container mx-auto flex flex-row justify-center p-5 flex md:flex-row items-center  ">
   
-       <nav className="flex justify-center bg-gray-800 md:mr-auto md:ml-4 md:py-1 md:pl-4 md:border-l md:border-gray-400 flex md:flex-wrap items-center text-base justify-center"> 
+<nav className="flex justify-center  md:mr-auto md:ml-4 md:py-1 md:pl-4 md:border-l md:border-gray-400 flex md:flex-wrap items-center text-base justify-center"> 
            <ul className='flex text-white flex-row gap-20 justify-center ml-5 p-10 mb-10'>
                
      <Link href='/'> 
